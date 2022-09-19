@@ -1,0 +1,153 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+  background: url(/images/pattern-background-desktop.svg) no-repeat,
+  hsl(225, 100%, 94%);
+  background-size: 100% 50%;
+  color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  margin: 20px;
+    height: 570px;
+    width: 375px;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+}
+
+img {
+    border-radius: 20px 20px 0 0;
+}
+
+article {
+    padding: 22.5px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-text h1 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 14px;
+}
+
+.card-text p {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 24px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: absolute;
+  left: 80px;
+  
+}
+
+ul li{
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+.music {
+    position: absolute;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+  .change {
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    color: hsl(245, 75%, 52%);
+  }
+
+  .change:hover {
+    text-decoration: none;
+  }
+
+  .annual {
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+  }
+
+  .price {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    width: 300px;
+    height: 48px;
+    border: none;
+    box-shadow: rgba(25, 40, 255, 0.993) 0px 3px 12px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+ opacity: .8;
+}
+
+.cancel-link {
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel a {
+    text-decoration: none;
+}
+
+.cancel a:hover {
+    color: hsl(223, 47%, 23%);
+}
